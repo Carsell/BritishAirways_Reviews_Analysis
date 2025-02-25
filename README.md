@@ -1,10 +1,23 @@
-### 🛫 British Airways Trustpilot Review Analysis
+# 🛫 British Airways Trustpilot Review Analysis
 
 A Comprehensive Data Pipeline for Scraping, Processing, and Analyzing British Airways Customer Reviews
 This repository contains a structured Python pipeline for collecting and analyzing British Airways Trustpilot reviews. The project leverages Selenium for web scraping, Natural Language Processing (NLP), and fuzzy matching techniques to extract meaningful insights from customer feedback.
 
+## 📌 Project Overview
+This repository contains a structured pipeline for **scraping, processing, and analyzing British Airways Trustpilot reviews**. The project leverages:
+- **Selenium** for web scraping
+- **NLP models** for sentiment analysis
+- **Fuzzy matching** to extract meaningful keywords
+- **Topic modeling (LDA)** for insights
+
 ## 📂 Project Structure
-Each script is modularized for clarity and ease of use.
+
+| Folder | Description |
+|--------|-------------|
+| `scripts/` | Contains all Python scripts for data collection & processing |
+| `data/` | Stores the raw & processed datasets |
+| `README.md` | Documentation for running the project |
+| `requirements.txt` | Required dependencies for running the scripts |
 
 ## File	Description
 01_scrape_reviews.py	Scrapes customer reviews from Trustpilot using Selenium and saves them to CSV.
