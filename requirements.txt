@@ -1,0 +1,11 @@
+selenium
+beautifulsoup4
+pandas
+numpy
+transformers
+scikit-learn
+wordcloud
+matplotlib
+airportsdata
+rapidfuzz
+
